@@ -191,6 +191,9 @@ footer {
     section, nav {
         flex-direction: column;
     }
+    aside {
+        display: none;
+    }
     
     .footer-content {
         flex-direction: column;
@@ -205,6 +208,9 @@ footer {
 @media screen and (max-width: 480px) {
     header {
         padding: 20px;
+    }
+    aside {
+        display: none;
     }
     
     header h1 {
